@@ -9,6 +9,7 @@ const show = (selector) => {
 // Hide an element
 const hide = (selector) => {
   document.querySelector(selector).style.display = 'none';
+  //document.querySelector(selector).innerHTML = '';
 };
 
 if (TOKEN) {
